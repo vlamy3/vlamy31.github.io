@@ -37,7 +37,7 @@ ul {
 
 p, ul {
     font-family: "Gamja Flower", sans-serif;
-    margin-left: 50px;
+    text-align: left;
 
 }
 
@@ -52,16 +52,43 @@ img {
     transition: transform 0.2s;
 }
 
-div, img{
-    text-align: center;
-    display: grid;
+img:hover {
+    transform: scale(1.05);
 }
 
-.nav {
+.nav ul{
     display: flex;
     justify-content: center;
-    align-items: center;
-    border-radius: 5px;
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
     text-decoration: none;
-    
+    font-family: "Sour Gummy", sans-serif;
+}
+.nav a {
+    text-decoration: none;
+    color: #333;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #a3b18a;
+}
+.nav a:hover {
+    background-color: #b08968;
+    color: #fff;
+}
+img {
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
+}
+p, ul {
+    margin-left: 10%;
+    font-size: larger;
+}
+
+.footer {
+    text-align: center;
 }
