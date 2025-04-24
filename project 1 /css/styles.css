@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:whitesmoke;
+    
+
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    font-family: "Sour Gummy", sans-serif
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+    font-family: "Cherry Bomb One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3 {
+    font-family: "Gamja Flower", sans-serif;
+    font-size: 2rem;
+}
+
+p {
+    font-family: "Gamja Flower", sans-serif;
+    font-size: 1.5rem;
+}
