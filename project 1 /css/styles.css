@@ -1,11 +1,8 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
     box-sizing: border-box;
     background-color:whitesmoke;
-    
-
-
 }
 
 h1 {
@@ -32,4 +29,39 @@ h3 {
 p {
     font-family: "Gamja Flower", sans-serif;
     font-size: 1.5rem;
+}
+
+ul {
+    list-style-type: japanese-informal;
+}
+
+p, ul {
+    font-family: "Gamja Flower", sans-serif;
+    margin-left: 50px;
+
+}
+
+img {
+    display: block;
+    max-width: 100%;
+
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+div, img{
+    text-align: center;
+    display: grid;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    text-decoration: none;
+    
 }
