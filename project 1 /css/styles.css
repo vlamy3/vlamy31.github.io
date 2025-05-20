@@ -58,15 +58,26 @@ img:hover {
     transform: scale(1.05);
 }
 
-.nav ul{
+
+.nav {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav ul {
+    display: flex; /* Keeps the list items in a row */
     list-style-type: none;
-    padding: 20px;
-    margin: 5px;
+    padding: 0px;
+    margin:  30px;
     text-decoration: none;
     font-family: "Sour Gummy", sans-serif;
+
 }
+.nav li {
+    margin: 0 15px; /* Adds space between the list items */
+}
+
 .nav a {
     text-decoration: none;
     color: #333;
@@ -77,10 +88,27 @@ img:hover {
     transition: background-color 0.3s, color 0.3s;
     background-color: #a3b18a;
 }
+
 .nav a:hover {
     background-color: #b08968;
     color: #fff;
 }
+.nav a:active {
+    background-color: #606c38;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .nav a {
+        font-size: 1.2rem; /* Smaller font size for mobile */
+        padding: 8px 15px; /* Adjust padding */
+    }
+
+    .nav li {
+        margin: 0 10px; /* Reduce margin for smaller screens */
+    }
+}
+
 img {
     justify-content: center;
     display: block;
@@ -92,11 +120,15 @@ p, ul {
 }
 
 footer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
     background-color: #a3a380;
     color: white;
     bottom: 0;
-    width: 100%;
+    width: 98%;
     border-radius: 5px;
     box-shadow: 0 4px 8px #606c38;
+
 }
